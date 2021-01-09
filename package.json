@@ -1,8 +1,14 @@
 {
     "name": "dandelion",
     "displayName": "Dandelion",
-    "description": "Adooone VS Code Color Theme",
-    "version": "0.0.1",
+    "description": "Dark theme",
+    "version": "0.0.3",
+    "publisher": "Adooone",
+    "icon": "assets/dandelionn.png",
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/adooone/dandelion.git"
+    },
     "engines": {
         "vscode": "^1.41.0"
     },
@@ -12,7 +18,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "dandelion",
+                "label": "Dandelion",
                 "uiTheme": "vs-dark",
                 "path": "./themes/dandelion-color-theme.json"
             }
