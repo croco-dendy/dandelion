@@ -729,7 +729,8 @@
       "name": "[CSS] - Keyword",
       "scope": [
         "source.css punctuation.definition.keyword",
-        "source.css keyword.control"
+        "source.css keyword.control",
+        "meta.property-list.css.sass.prop"
       ],
       "settings": {
         "foreground": "#616060"
@@ -774,7 +775,7 @@
       "name": "[CSS] - Element Selector",
       "scope": "entity.name.tag.css",
       "settings": {
-        "foreground": "#a8f"
+        "foreground": "#42C251"
       }
     },
     {
@@ -817,7 +818,7 @@
         "keyword.other.unit.fr.css"
       ],
       "settings": {
-        "foreground": "#a8f"
+        "foreground": "#FDAD00"
       }
     },
     {
@@ -919,78 +920,6 @@
         "foreground": "#36B35970"
       }
     },
-
-    // Javascript ----------------------------------------------------------------------
-    // {
-    //   "name": "[JAVASCRIPT] - Numbers",
-    //   "scope": "source.js constant",
-    //   "settings": {
-    //     "foreground": "#a8f"
-    //   }
-    // },
-    // {
-    //   "name": "[JAVASCRIPT] - Keywords",
-    //   "scope": "keyword.operator",
-    //   "settings": {
-    //     "foreground": "#616060"
-    //   }
-    // },
-    // {
-    //   "name": "[JAVASCRIPT] - Keywords",
-    //   "scope": "source.js keyword",
-    //   "settings": {
-    //     "foreground": "#616060"
-    //   }
-    // },
-
-    // {
-    //   "name": "[JAVASCRIPT] - Storage Type Function",
-    //   "scope": "source.js storage.type.function",
-    //   "settings": {
-    //     "foreground": "#fff"
-    //   }
-    // },
-    // {
-    //   "name": "[JAVASCRIPT] - Keywords",
-    //   "scope": [
-    //     "source.js punctuation.definition.keyword",
-    //     "source.js keyword.control"
-    //   ],
-    //   "settings": {
-    //     "foreground": "#FDAD00"
-    //   }
-    // },
-    // {
-    //   "name": "[JAVASCRIPT] - Keywords",
-    //   "scope": [
-    //     "source.js punctuation.definition.keyword",
-    //     "source.js keyword.control"
-    //   ],
-    //   "settings": {
-    //     "foreground": "#FDAD00"
-    //   }
-    // },
-    // {
-    //   "name": "[JAVASCRIPT] - Variable Language",
-    //   "scope":
-    //     "variable.language, entity.name.type.class.js, meta.tag.js, entity.name.tag.js",
-    //   "settings": {
-    //     "foreground": "#FDAD00"
-    //   }
-    // },
-    // {
-    //   "name": "[JAVASCRIPT] - Inherited Component",
-    //   "scope": [
-    //     "entity.other.inherited-class.js",
-    //     "variable.language.this.js",
-    //     "variable.other.readwrite.alias.js",
-    //     "meta.import.js"
-    //   ],
-    //   "settings": {
-    //     "foreground": "#FDAD00"
-    //   }
-    // },
-    // Lines
     {
       "name": "Meta Brace",
       "scope": ["meta.brace"],
@@ -998,7 +927,6 @@
         "foreground": "#616060"
       }
     },
-    // Typescript ----------------------------------------------------------------------
     {
       "name": "Support Variable Property DOM",
       "scope": "support.variable.property.dom",
@@ -1017,14 +945,10 @@
       "name": "[JSON] - String",
       "scope": [
         "source.json string",
-        "source.json punctuation.definition.string",
-        "punctuation.definition.string.end.json",
-        "punctuation.definition.string.begin.json"
       ],
       "settings": {
         "foreground": "#36B359"
       }
     }
-    // React -----------------------------------------------------------------------
   ]
 }
