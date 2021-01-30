@@ -496,7 +496,7 @@
     {
       "name": "Storage modifier",
       "scope": [
-        "storage.modifier"
+        "storage.modifier",
       ],
       "settings": {
         "foreground": "#626BFF",
@@ -517,10 +517,9 @@
       "name": "Keywords",
       "scope": [
         "Constant",
-        "storage.type.function.arrow",
         "storage.type.function",
         "keyword.control.flow",
-        "keyword.control.conditional",
+        "keyword.control.conditional"
       ],
       "settings": {
         "foreground": "#EB3C6C",
@@ -528,18 +527,32 @@
       }
     },
     {
-      "name": "Keyword comparison",
+      "name": "Comparison & arrow",
       "scope": [
-        "keyword.operator.comparison"
+        "keyword.operator.comparison",
+        "storage.type.function.arrow",
+        "keyword.operator.ternary"
       ],
       "settings": {
-        "foreground": "#EB3C6C"
+        "foreground": "#EB3C6C",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Arithmetic",
+      "scope": [
+        "keyword.operator.arithmetic",
+        "keyword.operator.relational"
+      ],
+      "settings": {
+        "foreground": "#7aeA3C",
+        "fontStyle": "bold"
       }
     },
     {
       "name": "True",
       "scope": [
-        "constant.language.boolean.true"
+        "constant.language.boolean.true",
       ],
       "settings": {
         "foreground": "#7FDA3C",

@@ -2,12 +2,15 @@
     "name": "dandelion",
     "displayName": "Dandelion",
     "description": "Dark theme",
-    "version": "0.0.4",
+    "version": "0.0.7",
     "publisher": "Adooone",
     "icon": "assets/dandelionn.png",
     "repository": {
         "type" : "git",
         "url" : "https://github.com/adooone/dandelion.git"
+    },
+    "scripts": {
+        "publish": "vsce publish"
     },
     "engines": {
         "vscode": "^1.41.0"
