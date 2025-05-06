@@ -6,5 +6,3 @@ Frontend focused.
 
 ![Example](assets/shot1.png)
 ![Example](assets/shot2.png)
-
-Use **Fira Code iScript**

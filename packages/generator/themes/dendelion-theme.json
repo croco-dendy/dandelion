@@ -1,0 +1,49 @@
+{
+  "name": "Dendelion",
+  "kind": 2,
+  "colors": {
+    "editor.background": "#fefdf9",
+    "editor.foreground": "#110f0e",
+    "sideBar.background": "#fdf9ed",
+    "activityBar.background": "#171615",
+    "tab.activeBackground": "#f0e4c0",
+    "tab.inactiveBackground": "#fdf9ed"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "keyword",
+        "storage.type"
+      ],
+      "settings": {
+        "foreground": "#a82f28"
+      }
+    },
+    {
+      "scope": [
+        "variable",
+        "identifier"
+      ],
+      "settings": {
+        "foreground": "#b392da"
+      }
+    },
+    {
+      "scope": [
+        "string"
+      ],
+      "settings": {
+        "foreground": "#4d703f"
+      }
+    },
+    {
+      "scope": [
+        "comment"
+      ],
+      "settings": {
+        "foreground": "#e1dbd1",
+        "fontStyle": "italic"
+      }
+    }
+  ]
+}

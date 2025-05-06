@@ -1,30 +1,40 @@
 {
-    "name": "dandelion",
-    "displayName": "Dandelion",
-    "description": "Dark theme",
-    "version": "0.0.9",
-    "publisher": "Adooone",
-    "icon": "assets/dandelionn.png",
-    "repository": {
-        "type" : "git",
-        "url" : "https://github.com/adooone/dandelion.git"
-    },
-    "scripts": {
-        "publish": "vsce publish"
-    },
-    "engines": {
-        "vscode": "^1.41.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Dandelion",
-                "uiTheme": "vs-dark",
-                "path": "./themes/dandelion-color-theme.json"
-            }
-        ]
-    }
+  "name": "dandelion",
+  "displayName": "Dandelion",
+  "description": "Dark theme",
+  "version": "0.1.0",
+  "publisher": "Adooone",
+  "icon": "assets/dandelion.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adooone/dandelion.git"
+  },
+  "scripts": {
+    "publish": "vsce publish",
+    "lint": "biome check .",
+    "format": "biome format . --write",
+    "prepare": "husky"
+  },
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "workspaces": ["packages/*"],
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dandelion",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dandelion-color-theme.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "turbo": "^2.5.2"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.99.1",
+    "husky": "^9.1.7"
+  }
 }
