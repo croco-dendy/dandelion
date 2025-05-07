@@ -7,7 +7,7 @@
   "files": ["dist"],
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "generate": "pnpm build && node dist/cli.js",
+    "generate": "bun run src/cli",
     "prepublishOnly": "pnpm build"
   },
   "dependencies": {

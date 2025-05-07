@@ -13,6 +13,12 @@
     },
     "lint": {
       "outputs": []
+    },
+    "generate": {
+      "outputs": []
+    },
+    "package": {
+      "outputs": []
     }
   }
 }

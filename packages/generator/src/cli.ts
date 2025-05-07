@@ -14,7 +14,7 @@ const theme = createTheme({
   palette,
 });
 
-const outputPath = join(__dirname, '..', 'themes', 'dendelion-theme.json');
+const outputPath = join(__dirname, '../../../themes', 'dendelion-theme.json');
 await writeFile(outputPath, JSON.stringify(theme, null, 2), 'utf-8');
 
 console.log('🌼 Theme written to:', outputPath);

@@ -7,7 +7,8 @@
     "sideBar.background": "#fdf9ed",
     "activityBar.background": "#171615",
     "tab.activeBackground": "#f0e4c0",
-    "tab.inactiveBackground": "#fdf9ed"
+    "tab.inactiveBackground": "#fdf9ed",
+    "sideBarSectionHeader.background": "#fdf9ed"
   },
   "tokenColors": [
     {

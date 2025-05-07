@@ -13,11 +13,13 @@
     "publish": "vsce publish",
     "lint": "biome check .",
     "format": "biome format . --write",
+    "generate": "turbo run generate",
     "prepare": "husky"
   },
   "engines": {
-    "vscode": "^1.74.0"
+    "vscode": "^1.99.0"
   },
+  "packageManager": "pnpm@10.10.0",
   "workspaces": ["packages/*"],
   "categories": ["Themes"],
   "contributes": {
@@ -25,7 +27,7 @@
       {
         "label": "Dandelion",
         "uiTheme": "vs-dark",
-        "path": "./themes/dandelion-color-theme.json"
+        "path": "./themes/dandelion-theme.json"
       }
     ]
   },
