@@ -18,7 +18,7 @@ export const generateVSCodeTheme: VSCodeThemeGenerator = (
       'activityBar.background': palette.space.deep,
       'tab.activeBackground': palette.paper.deep,
       'tab.inactiveBackground': palette.paper.calm,
-      'sideBarSectionHeader.background': palette.paper.calm,
+      'sideBarSectionHeader.background': palette.paper.deep,
     },
     tokenColors: [
       {
